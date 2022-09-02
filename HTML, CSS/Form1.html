@@ -1,0 +1,102 @@
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="Form1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1 id="title" class="text-center">Форма опроса freeCodeCamp</h1>
+        <p id="description" class="description text-center">
+          Спасибо Вам, что помогаете делать нашу платформу лучше
+        </p>
+      </header>
+      <form id="survey-form">
+        <div class="form-group">
+          <label id="name-label" for="name">Имя</label>
+          <input type="text" name="name" id="name" class="form-control" placeholder="Введите Ваше имя" required="">
+        </div>
+        <div class="form-group">
+          <label id="email-label" for="email">Email</label>
+          <input type="email" name="email" id="email" class="form-control" placeholder="Введите Ваш Email" required="">
+        </div>
+        <div class="form-group">
+          <label id="number-label" for="number">Возраст <span class="clue">(опционально)</span></label>
+          <input type="number" name="age" id="number" min="10" max="99" class="form-control" placeholder="Возраст">
+        </div>
+        <div class="form-group">
+          <p class="whoareyou">Кем Вы сейчас являетесь?</p>
+          <select id="dropdown" name="role" class="form-control" required="">
+            <option class="way1" disabled="" selected="" value="">Выберите вариант</option>
+            <option value="student">Студент</option>
+            <option value="job">Работаю на ставку</option>
+            <option value="learner">Не работаю на ставку</option>
+            <option value="preferNo">Мне нечего сказать</option>
+            <option value="other">Другое</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <p class="whoareyou1">Вы бы порекомендовали платформу freeCodeCamp другу?</p>
+          <label class="label1">
+            <input name="user-recommend" value="definitely" type="radio" class="input-radio1" checked="">Однозначно<br></label>
+          <label class="label1">
+            <input name="user-recommend" value="maybe" type="radio" class="input-radio2">Возможно<br></label>
+
+          <label class="label1"><input name="user-recommend" value="not-sure" type="radio" class="input-radio3">Нет<br></label>
+        </div>
+
+        <div class="form-group1">
+          <p>Что Вам нравится больше в freeCodeCamp?</p>
+          <select id="most-like" name="mostLike" class="form-control" required="">
+            <option disabled="" selected="" value="">Выберите вариант</option>
+            <option value="challenges">Проблемы</option>
+            <option value="projects">Проекты</option>
+            <option value="community">Сообщество</option>
+            <option value="openSource">Открытый исходный код</option>
+          </select>
+        </div>
+
+        <div>
+          <p class="form-group2">
+            Что бы Вы хотели улучшить?
+            <span class="clue">(выберите один или несколько вариантов)</span>
+          </p>
+
+          <label class="checkbox1"><input name="prefer" value="front-end-projects" type="checkbox" class="input-checkbox">Front-end Projects<br></label>
+          <label class="checkbox1">
+            <input name="prefer" value="back-end-projects" type="checkbox" class="input-checkbox">Back-end Projects<br></label>
+          <label class="checkbox1"><input name="prefer" value="data-visualization" type="checkbox" class="input-checkbox">Data Visualization<br></label>
+          <label class="checkbox1"><input name="prefer" value="challenges" type="checkbox" class="input-checkbox">Challenges<br></label>
+          <label class="checkbox1"><input name="prefer" value="open-source-community" type="checkbox" class="input-checkbox">Open Source Community<br></label>
+          <label class="checkbox1"><input name="prefer" value="gitter-help-rooms" type="checkbox" class="input-checkbox">Gitter help rooms<br></label>
+          <label class="checkbox1"><input name="prefer" value="videos" type="checkbox" class="input-checkbox">Videos<br></label>
+          <label class="checkbox1"><input name="prefer" value="city-meetups" type="checkbox" class="input-checkbox">City Meetups<br></label>
+          <label class="checkbox1"><input name="prefer" value="wiki" type="checkbox" class="input-checkbox">Wiki<br></label>
+          <label class="checkbox1"><input name="prefer" value="forum" type="checkbox" class="input-checkbox">Forum<br></label>
+          <label class="checkbox1"><input name="prefer" value="additional-courses" type="checkbox" class="input-checkbox">Additional Courses<br></label>
+        </div>
+
+        <div class="form-group3">
+          <p>Ваши комментарии и предложения</p>
+          <textarea id="comments" class="input-textarea" name="comment" placeholder="Напишите Ваш комментарий"></textarea>
+        </div>
+
+        <div class="form-group">
+          <button type="submit" id="submit" class="submit-button">
+            Отправить
+          </button>
+        </div>
+      </form>
+    </div>
+  
+
+</body>
+
