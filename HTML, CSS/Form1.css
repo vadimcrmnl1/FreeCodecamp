@@ -1,0 +1,183 @@
+.container {
+    background: #153838 url(https://images.wallpaperscraft.ru/image/single/kosmos_polet_nebo_zvezdy_82970_1920x1080.jpg);
+    font-family: 'Open Sans', sans-serif;
+  color: white;
+  }
+
+
+  #title {
+    text-align: center;
+    font-size: 50px;
+    color: black;
+    -webkit-text-stroke: 0.1px white;
+  }
+
+#title {
+    background-color: transparent;
+}
+
+#description {
+    text-align: center;
+    font-size: 40px;
+    color: black;
+    -webkit-text-stroke: 0.5px white;
+}
+
+#description {
+    background-color: transparent;
+}
+
+#survey-form {
+  background: rgba(0, 0, 0, 0.6);
+  margin: 0 20% 0 20%;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+#name-label {
+  display: block;
+  margin: 10px 5px 2px 5px;
+  text-align: center;
+  font-size: 20px;
+  }
+
+#name {
+  display: block;
+  margin: 2px 35%;
+  width: 30%;
+  height: 5%;
+  }
+
+  #email-label {
+  display: block;
+  margin: 10px 5px 2px 5px;
+  text-align: center;
+  font-size: 20px;
+  }
+
+  #email {
+  display: block;
+  margin: 2px 35%;
+  width: 30%;
+  height: 5%;
+  }
+
+  #number-label {
+  display: block;
+  margin: 10px 5px 2px 5px;
+  text-align: center;
+  font-size: 20px;
+  }
+
+  .clue {
+    font-size: 15px;
+  }
+
+  #number {
+  display: block;
+  margin: 2px 35%;
+  width: 30%;
+  height: 5%;
+  }
+ 
+  .whoareyou {
+  display: block;
+  margin: 10px 5px 2px 5px;
+  text-align: center;
+  font-size: 20px;
+  }
+
+  #dropdown {
+  display: block;
+  margin: 2px 35%;
+  width: 30%;
+  height: 5%;
+  }
+
+  .whoareyou1 {
+  display: block;
+  margin: 10px 5px 2px 5px;
+  text-align: center;
+  font-size: 20px;
+  }
+
+  .form-control {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+  }
+
+  .input-radio1 {
+  display: inline-block;
+  margin: 0 5px 5px 45%;
+  width: 20px;
+ }
+
+.input-radio2 {
+  display: inline-block;
+  margin: 0 5px 5px 45%;
+  width: 20px;
+ }
+
+ .input-radio3 {
+  display: inline-block;
+  margin: 0 5px 5px 45%;
+  width: 20px;
+ }
+
+ .label1 {
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+ }
+
+ .form-group1 {
+  display: block;
+  margin: 2px 5px 5px 5px;
+  text-align: center;
+  font-size: 20px;
+ }
+
+ #most-like {
+  display: block;
+  margin: 2px 35%;
+  width: 30%;
+  height: 5%;
+ }
+
+ .form-group2 {
+  display: block;
+  text-align: center;
+  margin: 2px 5px 5px 5px;
+  font-size: 20px;
+ }
+
+.input-checkbox {
+  display: inline-block;
+  margin: 0 5px 5px 45%;
+ }
+
+ .checkbox1 {
+    text-align: left;
+  font-size: 18px;
+ }
+
+ .form-group3 {
+   display: block;
+   text-align: center;
+   font-size: 20px;
+   margin: 0 0 5px 0;
+ }
+
+.input-textarea {
+  display: block;
+  font-family: 'Open Sans', sans-serif;
+  margin: 2px 35%;
+  width: 30%;
+  height: 10%;
+}
+
+ #submit {
+  display: inline-block;
+  margin: 5px 5px 10px 40%;
+  width: 20%;
+  height: 5%;
+ }

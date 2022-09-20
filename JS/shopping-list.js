@@ -1,0 +1,1 @@
+const myList = [["Auto wheels", 10], ["Auto repairs", 6], ["VW Golf V", 14], ["VW Passat VI", 8], ["VW Scirocco", 9]];
